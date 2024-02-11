@@ -17,7 +17,7 @@ In our experiments (described in [our paper](Synthetic_Oversampling.pdf)), we si
 [Our paper](Synthetic_Oversampling.pdf) offers two research questions: 
 
 - **RQ1** Which synthetic oversampling technique can generate the most informative minority samples, leading to the highest performance for
- learners trained on the original dataset combined with synthetic sam- ples?
+ learners trained on the original dataset combined with synthetic samples?
 - **RQ2** When generating the synthetic samples, which approach has the highest efficiency (measured in terms of runtimes)?
 
 To run the code, and the statistical analysis required to answer these questions, please apply the following steps. 
