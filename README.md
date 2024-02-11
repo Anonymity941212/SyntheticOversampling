@@ -7,7 +7,9 @@ Software analytics becomes challenging when the target class is rare. For exampl
 One of the promising solution is called the data level solution which performs action on the data instances. Prior literature mainly explores (a) over-sampling, (b) under-sampling, and (c) hybrid-sampling. Over-sampling and under-sampling aim to balance the class ratio by generating synthetic minority samples and removing majority samples correspondingly, while the hybrid-sampling is the mix of the over-sampling and the under-sampling. Our study, due to the highly imbalanced ratio, explores the over-sampling solution.
 
 A recent state-of-the-art study from Shu et al. (MSR 2022) recommend the use of hyper-parameter tuning on generative adversarial networks (GAN). GAN employs two deep learners to synthesize more examples of the minority class. Within GAN, the generator artificially produces fake data, while the discriminator attempts to identify which outputs have been artificially synthesized. Feedback from the discriminator is used to guide and enhance the generator.
-In our experiment, we significantly extend Shu et al.’s study by (a) exploring much more over-sampling synthetic data generation algorithms and (b) empirically evaluating these algorithms on more software analytic tasks.
+
+
+In our experiments (described in [our paper](Synthetic_Oversampling.pdf)), we significantly extend Shu et al.’s study by (a) exploring much more over-sampling synthetic data generation algorithms and (b) empirically evaluating these algorithms on more software analytic tasks. 
 
 
 ## Replication Steps for RQ1 and RQ2
