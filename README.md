@@ -1,4 +1,4 @@
-# MSR2024 Synthetic Oversampling
+# Synthetic Oversampling
 
 This repo cotains the replication package for the MSR 2024 submission. Paper name blind for review.
 
